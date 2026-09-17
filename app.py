@@ -1,11 +1,10 @@
-a=2
-b=3
-c=5
-if (a >= b && a >= c)
-     printf("Greatest = %d", a);
-else if (b >= a && b >= c)
-    printf("Greatest = %d", b);
-else
-    printf("Greatest = %d", c);
+a = 2
+b = 3
+c = 5
 
-   
+if a >= b and a >= c:
+    print("Greatest =", a)
+elif b >= a and b >= c:
+    print("Greatest =", b)
+else:
+    print("Greatest =", c)
